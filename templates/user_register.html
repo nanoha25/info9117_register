@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>User Register</title>
+</head>
+
+<body>
+<fieldset>
+    <legend>Register area</legend>
+<form method="post" action="">
+    <table border="1" bordercolor="#0099ff" cellpadding="10px" cellspacing="0">
+        <tr>
+            <th colspan="3">register form</th>
+        </tr>
+        <tr>
+            <td>user's name：</td>
+            <td>
+                <input  type="text" name="name" value="--input user's name--"/>
+            </td>
+            <td><font color="#FF0000">*cannot start with a number or an underline</font></td>
+        </tr>
+        <tr>
+            <td>password：</td>
+            <td>
+                <input type="password" nam="pwd" />
+            </td>
+            <td><font color="#FF0000">*must combine numbers & letters</font></td>
+        </tr>
+        <tr>
+            <td>confirm password：</td>
+            <td>
+                <input type="password" nam="pwd" />
+            </td>
+            <td><font color="#FF0000">*re-input password</font></td>
+        </tr>
+        <tr>
+            <td>email：</td>
+            <td>
+                <input type="email" nam="emailaddr" />
+            </td>
+            <td><font color="#FF0000">*Please enter a valid email address</font></td>
+        </tr>
+        <tr>
+            <td>gender：</td>
+            <td>
+                <input type="radio" name="sex" value="nan" checked="checked"/>male
+                <input type="radio" name="sex" value="nv" />female
+            </td>
+            <td><font color="#FF0000">*careful select</font></td>
+        </tr>
+        <tr>
+            <td>nationality：</td>
+            <td>
+                <select name="country"/>
+                    <option value="none">---select countries---</option>
+                    <option value="cn">China</option>
+                    <option value="usa">America</option>
+                    <option value="en">Britain</option>
+                    <option value="jp">Japan</option>
+            </td>
+            <td><font color="#FF0000">*select where u live</font></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <input type="submit" name="submit" value="submit" />
+                <input type="reset" name="reset" value="reset" />
+            </th>
+        </tr>
+    </table>
+</form>
+</fieldset>
+</body>
+</html>
