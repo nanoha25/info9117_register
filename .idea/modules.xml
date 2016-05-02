@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BlueGarden_Project/.idea/BlueGarden_Project.iml" filepath="$PROJECT_DIR$/../BlueGarden_Project/.idea/BlueGarden_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flask_local/.idea/flask_local.iml" filepath="$PROJECT_DIR$/../flask_local/.idea/flask_local.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/info9117_register.iml" filepath="$PROJECT_DIR$/.idea/info9117_register.iml" />
     </modules>
   </component>

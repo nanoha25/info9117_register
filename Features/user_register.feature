@@ -10,12 +10,7 @@ Feature: User Registration
     When user click "register" link
     Then the system should display a form which users will fill basic info to create a new account.
     Examples:
-  
-  Scenario Outline: Submit Form
-    Given at the registration page
-    When user click "Submit" link
-    Then the system should display "Submission Successful".
-    Examples: username: test; password: test12345; email: example@contoso.com;
+
     
   Scenario Outline: Username Contains Special Characters
     Given at the username field
